@@ -27,6 +27,11 @@
   line-height: 1;
   padding: 32px 16px 16px;
   transition: 300ms ease;
+
+  &:hover &__name {
+    color: #34568b;
+  }
+
   &:hover {
     transform: scale(1.2);
     z-index: 1;

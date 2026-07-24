@@ -27,23 +27,23 @@ header {
   }
 }
 
+.is-active {
+  position: relative;
+  color: $button-color;
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: $button-color;
+    border-radius: 8px;
+  }
+}
+
 .nav-item {
   margin-right: 20px;
-
-  &__active {
-    position: relative;
-    color: $button-color;
-    &::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 4px;
-      background-color: $button-color;
-      border-radius: 8px;
-    }
-  }
 
   &:last-child {
     margin-right: 0;
