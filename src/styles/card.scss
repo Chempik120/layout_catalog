@@ -36,6 +36,10 @@
     letter-spacing: 0%;
     color: $main-text-color;
     margin-bottom: 6px;
+
+    @media (max-width: 1024px) {
+      line-height: 18px;
+    }
   }
 
   &:hover &__name {

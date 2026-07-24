@@ -22,7 +22,7 @@ header {
   text-decoration: none;
   color: $main-text-color;
 
-  &.is-active {
+  &--is-active {
     position: relative;
     color: $button-color;
     &::after {
