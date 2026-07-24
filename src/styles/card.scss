@@ -28,6 +28,16 @@
   padding: 32px 16px 16px;
   transition: 300ms ease;
 
+  &__name {
+    width: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: $main-text-color;
+    margin-bottom: 6px;
+  }
+
   &:hover &__name {
     color: #34568b;
   }
@@ -50,16 +60,6 @@
     height: 134px;
     margin: 0 auto 40px;
     display: block;
-  }
-
-  &__name {
-    width: 100%;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0%;
-    color: $main-text-color;
-    margin-bottom: 6px;
   }
 
   &__code {
